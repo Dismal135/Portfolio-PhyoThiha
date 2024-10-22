@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --penguin-face: white;
+  --penguin-picorna: orange;
+  --penguin-skin: gray;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,4 +21,22 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-link {
+  display: flex;
+  gap: 5vw;
+}
+
+#nav-link li:hover {
+  text-decoration: underline;
 }
