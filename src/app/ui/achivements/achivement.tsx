@@ -10,8 +10,8 @@ import design from '@/app/images/responsive web design.png'
 
 const Achivement = () => {
     return (
-        <div>
-            <section id="skills">
+        <div className="space-y-16 mt-10">
+            <section className="space-y-4" id="skills">
                 <h1 className="text-xl"><strong>Skills</strong></h1>
                 <div className="flex flex-wrap gap-16 justify-center">
                 <Image src={html} alt="html" width={100} height={100} />
@@ -23,8 +23,8 @@ const Achivement = () => {
                 </div>
             </section>
 
-            <section>
-                <h1 className="text-xl"><strong>Experience</strong>🏅🏅🏅🏅</h1>
+            <section className="space-y-4">
+                <h1 className="text-xl text-center"><strong>Experience</strong>🏅🏅🏅🏅</h1>
                 <figure className="flex items-center gap-4 text-sm">
                 <Image src={mml} alt="myanmar media linkage" width={100} height={100} />
                 <div>
@@ -37,7 +37,7 @@ const Achivement = () => {
             <section>
                 <h1 className="text-xl text-center"><strong>Certificates</strong></h1>
                 <figure>
-                <Image src={design} alt="design certificate" width={500} height={500} layout="responsive" />
+                <Image src={design} alt="design certificate" width={500} height={500} />
                 <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/responsive-web-design"><figcaption className="text-center hover:underline">Responsive Web Design</figcaption></a>
                 </figure>
             </section>

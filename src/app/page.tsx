@@ -2,10 +2,11 @@ import Achivement from "./ui/achivements/achivement";
 import Myself from "./ui/myself/myself";
 import Penguin from "./ui/penguin/penguin";
 import Projects from "./ui/projects/projects";
+import ScrollToTop from "./ui/scrollToTop/scrollToTop";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container space-y-10" >
     <nav>
       <h1><strong>Portfolio</strong></h1>
       <ul id="nav-link">
@@ -27,6 +28,7 @@ export default function Home() {
     <p><strong>Tel:</strong> 📞 09758454815</p>
     <p><strong>Email:</strong> 📧 phyothiha97531@gmail.com</p>
     </footer>
+    <ScrollToTop />
     </div>
   );
 }
