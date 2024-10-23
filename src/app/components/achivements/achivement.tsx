@@ -37,7 +37,7 @@ const Achivement = () => {
             <section>
                 <h1 className="text-xl text-center"><strong>Certificates</strong></h1>
                 <figure>
-                <Image src={design} alt="design certificate" width={500} height={500} />
+                <Image src={design} alt="design certificate" width={500} height={500}/>
                 <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/responsive-web-design"><figcaption className="text-center hover:underline">Responsive Web Design</figcaption></a>
                 </figure>
             </section>

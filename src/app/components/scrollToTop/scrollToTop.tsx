@@ -33,8 +33,8 @@ const ScrollToTop = () => {
         <>
             {
                 show && (
-                    <button onClick={toTopButton} className="bg-black w-8 h-8 fixed bottom-4 right-4 rounded-sm">
-                        <FontAwesomeIcon icon={faArrowUp} color="white" />
+                    <button onClick={toTopButton} className="bg-black w-8 h-8 fixed bottom-4 right-4 rounded-sm dark:bg-red-500">
+                        <FontAwesomeIcon icon={faArrowUp} color="white" className="dark:text-black" />
                     </button>
                 )
             }
