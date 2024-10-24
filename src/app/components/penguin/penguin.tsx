@@ -2,7 +2,7 @@ import styles from "@/app/components/penguin/penguin.module.css";
 
 const Penguin = () => {
     return (
-        <div className={styles.penguin}>
+        <div className={`${styles.penguin} md:w-1/2`}>
             <div className={styles.penguinHead}>
                 <div className={`${styles.face} ${styles.left}`}></div>
                 <div className={`${styles.face} ${styles.right}`}></div>

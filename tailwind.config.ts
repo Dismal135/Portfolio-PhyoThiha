@@ -13,8 +13,15 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+    screens: {
+      'md': '650px',
+      'sm': '620px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    }
   },
   plugins: [],
-  darkMode: 'selector'
+  darkMode: 'class'
 };
 export default config;

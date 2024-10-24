@@ -8,21 +8,24 @@ import ThemeSwitcherButton from "./components/themeSwitcherButton/themeSwitcherB
 export default function Home() {
   return (
     <>
-      <div className="container space-y-10" >
+      <div className="container space-y-10 md:mx-auto 2xl:w-ful" >
         <nav>
           <h1><strong>Portfolio</strong></h1>
           <ul id="nav-link">
             <ThemeSwitcherButton />
-            <li><a href="#skills"><strong>Skills</strong></a></li>
+            <li className="md:hidden"><a href="#skills"><strong>Skills</strong></a></li>
             <li><a href="#projects"><strong>Projects</strong></a></li>
             <li><a href="#footer"><strong>Contact</strong></a></li>
           </ul>
         </nav>
         <main>
-          <h1 className="text-base"><strong>Hi! My name is PHYO THI HA. I am a Front-End Webdeveloper.</strong></h1>
+          <h1 className="text-base 2xl:text-center"><strong>Hi! My name is PHYO THI HA. I am a Front-End Webdeveloper.</strong></h1>
+          <div className="md:flex md:items-center md:justify-evenly w-full">
           <Penguin />
           <Myself />
+          </div>
           <Achivement />
+          <h1 className="text-xl text-center mt-10"><strong>My projects</strong></h1>
           <Projects />
         </main>
         <footer id="footer">

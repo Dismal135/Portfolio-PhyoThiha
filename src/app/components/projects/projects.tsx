@@ -6,21 +6,20 @@ import tictactoe from "@/app/images/reacttictactoe.png"
 
 const Projects = () => {
     return (
-        <section id="projects" className="space-y-10 mt-16">
-            <h1 className="text-xl text-center"><strong>My projects</strong></h1>
-            <figure>
+        <section id="projects" className="mt-10 flex flex-wrap gap-10 items-center justify-items-center justify-center">
+            <figure className="inline-block w-fit">
                 <Image src={quoteMachine} alt="random quote machine" width={500} height={500} />
                 <a target="_blank" href="https://randomquotemachinephyothiha.netlify.app"><figcaption className="text-center hover:underline" >Random Quote Machine</figcaption></a>
                 </figure>
-                <figure>
+                <figure className="inline-block w-fit">
                 <Image src={documentation} alt="react technical documentation" width={500} height={500} />
                 <a target="_blank" href="https://reacttechnicaldocumentation.netlify.app/"><figcaption className="text-center hover:underline" >React Techinical Documentation</figcaption></a>
                 </figure>
-                <figure>
+                <figure className="inline-block w-fit">
                 <Image src={product} alt="product landing page" width={500} height={500} />
                 <a target="_blank" href="https://productlandingpagephyothiha.netlify.app/"><figcaption className="text-center hover:underline" >Product Landing Page</figcaption></a>
                 </figure>
-                <figure>
+                <figure className="inline-block w-fit">
                 <Image src={tictactoe} alt="tic tac toe game" width={500} height={500} />
                 <a target="_blank" href="https://reacttictactoepth.netlify.app/"><figcaption className="text-center hover:underline" >React TicTacToe</figcaption></a>
                 </figure>

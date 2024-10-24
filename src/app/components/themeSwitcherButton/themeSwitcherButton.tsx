@@ -5,30 +5,25 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
 const ThemeSwitcherButton = () => {
-    const { theme, setTheme } = useTheme();
+    const { setTheme, resolvedTheme } = useTheme();
 
     //this is for preventing hydration error before the component mounted
     const [mount, setMount] = useState(false);
     useEffect(() => {
         setMount(true)
     }, []);
+
+    if (!mount) return
     //
 
-    return (
-        <div>
-            {mount && (
-                theme === 'light' ? (
-                    <button className="flex" onClick={() => setTheme('dark')}>
-                        <Moon />
-                    </button>
-                ) : (
-                    <button className="flex" onClick={() => setTheme('light')}>
-                        <Sun />
-                    </button>
-                )
-            )}
-        </div>
-    )
+    if (resolvedTheme === 'light') {
+        return <Moon onClick={()=>setTheme('dark')} />
+    }
+
+    if (resolvedTheme === 'dark') {
+        return <Sun onClick={()=>setTheme('light')} />
+    }
+
 };
 
 export default ThemeSwitcherButton;
