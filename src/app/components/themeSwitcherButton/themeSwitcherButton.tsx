@@ -17,13 +17,12 @@ const ThemeSwitcherButton = () => {
     //
 
     if (resolvedTheme === 'light') {
-        return <Moon onClick={()=>setTheme('dark')} />
+        return <Moon onClick={() => setTheme('dark')} />
     }
 
     if (resolvedTheme === 'dark') {
-        return <Sun onClick={()=>setTheme('light')} />
+        return <Sun onClick={() => setTheme('light')} />
     }
-
 };
 
 export default ThemeSwitcherButton;
