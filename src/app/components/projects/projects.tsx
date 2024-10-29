@@ -13,20 +13,20 @@ const Projects = () => {
                 <a target="_blank" href="https://randomquotemachinephyothiha.netlify.app"><figcaption className="text-center hover:underline" >Random Quote Machine</figcaption></a>
                 </figure>
                 <figure className="inline-block w-fit">
-                <Image src={documentation} alt="react technical documentation" width={500} height={500} />
-                <a target="_blank" href="https://reacttechnicaldocumentation.netlify.app/"><figcaption className="text-center hover:underline" >React Techinical Documentation</figcaption></a>
+                <Image src={job} alt="job landing website" width={500} height={500} />
+                <a target="_blank" href="https://joblandingwebsite.vercel.app/"><figcaption className="text-center hover:underline" >Websites Showcase</figcaption></a>
                 </figure>
                 <figure className="inline-block w-fit">
-                <Image src={product} alt="product landing page" width={500} height={500} />
-                <a target="_blank" href="https://productlandingpagephyothiha.netlify.app/"><figcaption className="text-center hover:underline" >Product Landing Page</figcaption></a>
+                <Image src={documentation} alt="react technical documentation" width={500} height={500} />
+                <a target="_blank" href="https://reacttechnicaldocumentation.netlify.app/"><figcaption className="text-center hover:underline" >React Techinical Documentation</figcaption></a>
                 </figure>
                 <figure className="inline-block w-fit">
                 <Image src={tictactoe} alt="tic tac toe game" width={500} height={500} />
                 <a target="_blank" href="https://reacttictactoepth.netlify.app/"><figcaption className="text-center hover:underline" >React TicTacToe</figcaption></a>
                 </figure>
                 <figure className="inline-block w-fit">
-                <Image src={job} alt="job landing website" width={500} height={500} />
-                <a target="_blank" href="https://joblandingwebsite.vercel.app/"><figcaption className="text-center hover:underline" >Websites Showcase</figcaption></a>
+                <Image src={product} alt="product landing page" width={500} height={500} />
+                <a target="_blank" href="https://productlandingpagephyothiha.netlify.app/"><figcaption className="text-center hover:underline" >Product Landing Page</figcaption></a>
                 </figure>
                 <div className="lg:block hidden w-[500px]"></div>
         </section>
