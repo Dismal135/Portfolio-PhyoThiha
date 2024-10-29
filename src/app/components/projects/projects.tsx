@@ -3,6 +3,7 @@ import quoteMachine from "@/app/images/quotemachine.png"
 import documentation from "@/app/images/technicaldoc.png"
 import product from "@/app/images/productlandingpage.png"
 import tictactoe from "@/app/images/reacttictactoe.png"
+import job from '@/app/images/joblandingweb.png'
 
 const Projects = () => {
     return (
@@ -23,6 +24,11 @@ const Projects = () => {
                 <Image src={tictactoe} alt="tic tac toe game" width={500} height={500} />
                 <a target="_blank" href="https://reacttictactoepth.netlify.app/"><figcaption className="text-center hover:underline" >React TicTacToe</figcaption></a>
                 </figure>
+                <figure className="inline-block w-fit">
+                <Image src={job} alt="job landing website" width={500} height={500} />
+                <a target="_blank" href="https://joblandingwebsite.vercel.app/"><figcaption className="text-center hover:underline" >Websites Showcase</figcaption></a>
+                </figure>
+                <div className="lg:block hidden w-[500px]"></div>
         </section>
     )
 };

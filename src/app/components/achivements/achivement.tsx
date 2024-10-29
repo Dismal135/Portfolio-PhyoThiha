@@ -31,7 +31,7 @@ const Achivement = () => {
                 <figure className="flex items-center gap-4 text-sm">
                 <Image src={mml} alt="myanmar media linkage" width={100} height={100} />
                 <div>
-                <figcaption>Myanmar Media Linkage</figcaption>
+                <figcaption>Myanmar Media Linkage (3months)</figcaption>
                 <a className="hover:underline" href="https://mml.com.mm/">https://mml.com.mm/</a>
                 </div>
                 </figure>
