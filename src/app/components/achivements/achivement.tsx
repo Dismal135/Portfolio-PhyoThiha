@@ -8,6 +8,7 @@ import nextjs from '@/app/images/nextjs.png';
 import mml from '@/app/images/mml.jpg';
 import design from '@/app/images/responsive web design.png';
 import placeholder from '@/app/images/placeholderimage.png';
+import javascript from '@/app/images/javascript.png'
 
 const Achivement = () => {
     return (
@@ -39,10 +40,16 @@ const Achivement = () => {
 
             <section className="space-y-4">
                 <h1 className="text-xl text-center"><strong>Certificates</strong></h1>
+                <div className="flex flex-col justify-center items-center gap-4 lg:flex-row lg:justify-normal">
                 <figure className="inline-block w-fit">
                 <Image src={design} alt="design certificate" width={500} height={500}/>
                 <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/responsive-web-design"><figcaption className="text-center hover:underline">Responsive Web Design</figcaption></a>
                 </figure>
+                <figure className="inline-block w-fit">
+                <Image src={javascript} alt="design certificate" width={500} height={500}/>
+                <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/javascript-algorithms-and-data-structures-v8"><figcaption className="text-center hover:underline">Javascript</figcaption></a>
+                </figure>
+                </div>
             </section>
         </div>
     )
