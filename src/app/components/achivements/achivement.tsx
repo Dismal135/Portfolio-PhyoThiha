@@ -42,12 +42,14 @@ const Achivement = () => {
                 <h1 className="text-xl text-center"><strong>Certificates</strong></h1>
                 <div className="flex flex-col justify-center items-center gap-4 lg:flex-row lg:justify-normal">
                 <figure className="inline-block w-fit">
+                <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/responsive-web-design">
                 <Image src={design} alt="design certificate" width={500} height={500}/>
-                <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/responsive-web-design"><figcaption className="text-center hover:underline">Responsive Web Design</figcaption></a>
+                <figcaption className="text-center hover:underline font-bold">Responsive Web Design</figcaption></a>
                 </figure>
                 <figure className="inline-block w-fit">
+                <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/javascript-algorithms-and-data-structures-v8">
                 <Image src={javascript} alt="design certificate" width={500} height={500}/>
-                <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/javascript-algorithms-and-data-structures-v8"><figcaption className="text-center hover:underline">Javascript</figcaption></a>
+                <figcaption className="text-center hover:underline font-bold">Javascript</figcaption></a>
                 </figure>
                 </div>
             </section>
