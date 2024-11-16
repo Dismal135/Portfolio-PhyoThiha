@@ -19,7 +19,7 @@ export default function Home() {
           </ul>
         </nav>
         <main>
-          <h1 className="text-base 2xl:text-center"><strong>Hi! My name is PHYO THI HA. I am a Front-End Webdeveloper.</strong></h1>
+          <h1 className="text-base 2xl:text-center"><strong>Hi! My name is PHYO THI HA. I am a React Webdeveloper.</strong></h1>
           <div className="md:flex md:items-center md:justify-evenly w-full">
           <Penguin />
           <Myself />

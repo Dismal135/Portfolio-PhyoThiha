@@ -32,7 +32,7 @@ const Achivement = () => {
                 <figure className="flex items-center gap-4 text-sm">
                 <Image src={mml} alt="myanmar media linkage" width={100} height={100} />
                 <div>
-                <figcaption>Myanmar Media Linkage (4months)</figcaption>
+                <figcaption>Myanmar Media Linkage</figcaption>
                 <a className="hover:underline" href="https://mml.com.mm/">https://mml.com.mm/</a>
                 </div>
                 </figure>
@@ -40,6 +40,7 @@ const Achivement = () => {
 
             <section className="space-y-4">
                 <h1 className="text-xl text-center"><strong>Certificates</strong></h1>
+                <h1>I got those certificates by completing various projects because I want to flex them at my portfolio. 😜😜😜</h1>
                 <div className="flex flex-col justify-center items-center gap-4 lg:flex-row lg:justify-normal">
                 <figure className="inline-block w-fit">
                 <a target="_blank" href="https://www.freecodecamp.org/certification/PHYOTHIHA1056/responsive-web-design">
